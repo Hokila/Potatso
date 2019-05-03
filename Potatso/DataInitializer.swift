@@ -32,7 +32,6 @@ class DataInitializer: NSObject, AppLifeCycleProtocol {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        Receipt.shared.validate()
         sync()
     }
 

@@ -31,8 +31,6 @@ class UIManager: NSObject, AppLifeCycleProtocol {
         UITabBar.appearance().tintColor = Color.TabItemSelected
 
         keyWindow?.rootViewController = makeRootViewController()
-
-        Receipt.shared.validate()
         return true
     }
     

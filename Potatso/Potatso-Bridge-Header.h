@@ -12,7 +12,6 @@
 #import "Confidential.h"
 #import <asl.h>
 #import "QRCodeScannerVC.h"
-#import "Receipt.h"
 @import CocoaLumberjack;
 @import PotatsoLibrary;
 @import PotatsoModel;
