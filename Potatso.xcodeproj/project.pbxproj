@@ -17,8 +17,8 @@
 		49AFCAB8A7A7C95E61767328 /* Pods_PacketProcessor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075A0EDC2AD266124CA24078 /* Pods_PacketProcessor.framework */; };
 		5A4FA204227EF14C005F5046 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4FA203227EF14C005F5046 /* StoreKit.framework */; };
 		5A4FA206227F11F7005F5046 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4FA205227F11F7005F5046 /* CloudKit.framework */; };
-		5A9711B3227400820040EEE4 /* LibYAML.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A9711B2227400820040EEE4 /* LibYAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5A9711B5227400B00040EEE4 /* YAML_Framework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A9711B4227400B00040EEE4 /* YAML_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5ADBC3C8227F47B10068EF13 /* LibYAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADBC3C7227F47B10068EF13 /* LibYAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5ADBC3CA227F47D60068EF13 /* YAML_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADBC3C9227F47D60068EF13 /* YAML_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73AC1EAA0D7C41952F34CF14 /* Pods_PotatsoLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A646ACF237B032E4A2016FC /* Pods_PotatsoLibraryTests.framework */; };
 		82F0934D24F9F56921AF0EE0 /* Pods_PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD33A4FF6B8E224B4FF4A210 /* Pods_PotatsoModel.framework */; };
 		9B07D6B31CB7A6A900182C1B /* PotatsoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07D6B21CB7A6A900182C1B /* PotatsoLibraryTests.swift */; };
@@ -298,8 +298,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A9711B3227400820040EEE4 /* LibYAML.framework in CopyFiles */,
-				5A9711B5227400B00040EEE4 /* YAML_Framework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +333,8 @@
 				9B9B15C51C21595B000B6541 /* PotatsoLibrary.framework in Embed Frameworks */,
 				9BC600251CB2921C00E5EA61 /* PotatsoBase.framework in Embed Frameworks */,
 				9BDA62631CAE2576007F2581 /* PacketProcessor.framework in Embed Frameworks */,
+				5ADBC3C8227F47B10068EF13 /* LibYAML.framework in Embed Frameworks */,
+				5ADBC3CA227F47D60068EF13 /* YAML_Framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,8 +358,8 @@
 		580482A21595A1FD951E8265 /* Pods-PotatsoModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoModel.debug.xcconfig"; path = "Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4FA203227EF14C005F5046 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5A4FA205227F11F7005F5046 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		5A9711B2227400820040EEE4 /* LibYAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibYAML.framework; path = "../../../Library/Developer/Xcode/DerivedData/Potatso-dhuxhwfitohtjicixzgpvfwbjynm/Build/Products/Debug-iphonesimulator/LibYAML/LibYAML.framework"; sourceTree = "<group>"; };
-		5A9711B4227400B00040EEE4 /* YAML_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML_Framework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Potatso-dhuxhwfitohtjicixzgpvfwbjynm/Build/Products/Debug-iphonesimulator/YAML-Framework/YAML_Framework.framework"; sourceTree = "<group>"; };
+		5ADBC3C7227F47B10068EF13 /* LibYAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibYAML.framework; path = "../../../Library/Developer/Xcode/DerivedData/Potatso-dhuxhwfitohtjicixzgpvfwbjynm/Build/Products/Debug-iphoneos/LibYAML/LibYAML.framework"; sourceTree = "<group>"; };
+		5ADBC3C9227F47D60068EF13 /* YAML_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML_Framework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Potatso-dhuxhwfitohtjicixzgpvfwbjynm/Build/Products/Debug-iphoneos/YAML-Framework/YAML_Framework.framework"; sourceTree = "<group>"; };
 		718C633B665D19AFC7FD3401 /* Pods-PacketProcessor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketProcessor.release.xcconfig"; path = "Target Support Files/Pods-PacketProcessor/Pods-PacketProcessor.release.xcconfig"; sourceTree = "<group>"; };
 		946F065271ABB55B741DA5E5 /* Pods_TodayWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B07D6B01CB7A6A900182C1B /* PotatsoLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatsoLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1045,8 +1045,8 @@
 		9B0CFA021C1C0B1A007BD7C6 = {
 			isa = PBXGroup;
 			children = (
-				5A9711B4227400B00040EEE4 /* YAML_Framework.framework */,
-				5A9711B2227400820040EEE4 /* LibYAML.framework */,
+				5ADBC3C9227F47D60068EF13 /* YAML_Framework.framework */,
+				5ADBC3C7227F47B10068EF13 /* LibYAML.framework */,
 				9B0CFA0D1C1C0B1B007BD7C6 /* Potatso */,
 				9B0CFA221C1C0B1B007BD7C6 /* PotatsoTests */,
 				9B8705FB1C1D788F00651424 /* PacketTunnel */,
