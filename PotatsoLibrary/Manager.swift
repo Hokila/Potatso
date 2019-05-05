@@ -457,7 +457,7 @@ extension Manager {
                 manager.protocolConfiguration?.serverAddress = AppEnv.appName
                 manager.isOnDemandEnabled = true
                 let quickStartRule = NEOnDemandRuleEvaluateConnection()
-                quickStartRule.connectionRules = [NEEvaluateConnectionRule(matchDomains: ["connect.potatso.com"], andAction: NEEvaluateConnectionRuleAction.connectIfNeeded)]
+                quickStartRule.connectionRules = [NEEvaluateConnectionRule(matchDomains: [""], andAction: NEEvaluateConnectionRuleAction.connectIfNeeded)]
                 manager.onDemandRules = [quickStartRule]
                 manager.saveToPreferences(completionHandler: { (error) -> Void in
                     if let error = error {
